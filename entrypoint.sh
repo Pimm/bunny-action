@@ -2,6 +2,8 @@
 
 set -e
 
-composer global require own3d/bunny-cli
+cp /composer.json composer.json
 
-sh -c "$COMPOSER_HOME/vendor/bin/bunny $*"
+composer require pimm/bunny-cli:dev-private
+
+sh -c "vendor/bin/bunny $*"

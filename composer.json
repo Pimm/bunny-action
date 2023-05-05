@@ -1,0 +1,8 @@
+{
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:Pimm/bunny-cli.git"
+		}
+	]
+}
